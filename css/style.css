@@ -142,19 +142,22 @@ b, strong {
   background-size: cover;
 }
 
+/*
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
   .header_2 {
     background-image: url(../i/header_2_bg_2x.jpg);
   }
 }
+*/
 
 .header_2 .form2 input:focus {
   border-color: rgba(255, 255, 255, 0.7);
 }
 
 /* Header 3 */
-.header_3 .video .poster {
-  background-image: url(../i/demo_images/header_3_video_poster.jpg);
+.header_3 {
+  background: #ffaf96 url(../i/nana-gifs-site_header.gif) no-repeat no-repeat 50% 50%;
+  background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
