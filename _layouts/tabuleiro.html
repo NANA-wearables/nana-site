@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>NANA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="i/favicon.png" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link href="css/style.css" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+	</head> 
+	<body>		
+<!-- Navigation Mobile type 2 -->
+
+<a class="open_menu white bg_dark_gray radius_full"><i class="fas fa-bars line_height40"></i></a>
+<div class="navigation_mobile type2">
+	<a class="close_menu white"><i class="fas fa-times"></i></a>
+	<div class="padding_sides40 padding_top60 padding_bottom60 text-center inner">
+		<div><a href="#" class="font_second font22 link white bottom20">{{page.menuHome}}</a></div>
+        <div><a href="#sobre" class="font_second font22 link white bottom20">{{page.menuSobre}}</a></div>
+        <div><a href="#Kit" class="font_second font22 link white bottom20">{{page.menuKit}}</a></div>
+        <div><a href="#metodologia" class="font_second font22 link white bottom20">{{page.menuMetodologia}}</a></div>
+		<div><a href="#construcao" class="font_second font22 link white bottom20">{{page.menuConstrucao}}</a></div>
+		<div><a href="#equipe" class="font_second font22 link white bottom20">{{page.menuEquipe}}</a></div>
+         
+        <div class="socials top120">
+			<a href="/" target="_blank" class="font_first link white font18 sides10"><img src="../i/flagBrazil.png" class="max_width30">voltar</a>
+			<a href="/en" target="_blank" class="font_first link white font18 sides10"><img src="../i/flagUS.png" class="max_width30">EN</a>
+		</div>
+	</div>
+    
+</div>
+
+<header class="header_2 padding_top245 padding_bottom400">
+
+	<!-- Navigation 13 -->
+	<nav class="navigation_13 padding_top30 padding_bottom30">
+        <div class="container nopadding text-right">
+			<a href="/" class="font_first link white font18 uppercase">voltar</a>
+		</div>
+	</nav>
+</header>
+        
+<section id="sobre" class="feature_33 bg_black padding_top110 padding_bottom70">
+	<div class="container nopadding dark_gray">
+		<h2 class="margin_auto max_width570 text-center font42 font_first light pink">{{page.sobreCabecalho}}</h2>
+		<div class="font_second margin_auto top35 bottom75 max_width570 text-center font22 light opacity7 text text1 light_gray">
+			{{page.sobreTexto}}
+		</div>
+	</div>
+</section>
+
+
+<section id="kit" class="padding_top100 padding_bottom50 bg_pink">
+	<div class="container nopadding text-center black">
+		<h2 class="font50 font_first light">Como criar um wearable ?</h2>
+		<div class="max_width770 margin_auto top35 font22 font_second light hyphens text">
+			{{page.kitTexto}}
+		</div>
+		<div class="margin_auto top60 inner">
+			<div class="row">
+				<div class="col-md-4 padding_top65 padding_bottom65">
+					<img src="i/modulos/Módulo_Bateria_baixa_preto.png" alt="" />
+					<div class="font_first top30 font14 semibold uppercase spacing15 dark_blue title">{{page.moduloBateria}}</div>
+				</div>
+				<div class="col-md-4 padding_top65 padding_bottom65 block bordered">
+					<img src="i/modulos/Módulo_interruptor_baixa_preto.png" alt="" />
+					<div class="font_first top30 font14 semibold uppercase spacing15 dark_blue title">{{page.moduloInterruptor}}</div>
+				</div>
+				<div class="col-md-4 padding_top65 padding_bottom65">
+					<img src="i/modulos/Módulo_botão_Inteiro_baixa_preto.png" alt="" />
+					<div class="font_first top30 font14 semibold uppercase spacing15 dark_blue title">{{page.moduloBotao}}</div>
+				</div>
+			</div>
+		</div>
+        <div class="margin_auto inner">
+			<div class="row">
+				<div class="col-md-12 padding_top20 padding_bottom20 block">
+					<img src="i/modulos/Módulos_Conector-G_alta_preto.png" alt="" />
+					<div class="font_first top30 font14 semibold uppercase spacing15 dark_blue title">{{page.moduloConector}}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+        
+<section id="metodologia" class="feature_45 bg_sand padding_top105 padding_bottom50">
+	<div class="container nopadding dark_gray">
+		
+<!--
+		<h2 class="bottom25 font50 font_first font_first text-center">{{page.metodologiaCabecalho}}</h2>
+		<div class="margin_auto bottom70 max_width740 font18 font_second light opacity7 text-center text text1">
+			{{page.metodologiaTexto}}
+		</div>
+-->
+		
+		<div class="row justify-content-between">
+			
+			<div class="col-xl-4 col-lg-4 col-md-4">
+				<div class="inner">
+					<div class="font_first bottom15 font22 black title">Cartas de Ideação</div>
+					<div class="font_light bottom45 font18 light opacity7 text_left">
+						{{page.metodoTabuleiroTexto}}
+					</div>
+				</div>
+			</div>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="inner">
+					<div class="font_first bottom15 font22 black title">
+                        <video class="col-xs-12" src="videos/Gola_baixa.mp4" muted autoplay loop></video>
+                    </div>						
+				</div>
+			</div>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+				<div class="inner">
+					<div class="font_first bottom15 font22 black title">Cartas de Referência</div>
+					<div class="font_light bottom45 font18 light opacity7 text">
+						{{page.metodoTutoriaisTexto}}
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+
+<!-- Footer 1 -->
+
+<footer class="footer_1 bg_white padding_top75 padding_bottom70">
+	<div class="container nopadding">
+		<div class="flex justify_between inner">
+			<div class="block block_center text-center">
+				<div class="font20 font_second dark_blue">Rua João Moura 2152 São Paulo-SP</div>
+			</div>
+			<div class="block block_right text-left text-lg-right">
+				<p class="font20 font_second dark_blue">+55 11 948 997 972</p>
+			</div>
+		</div>
+<!--
+		<div class="margin_auto top20 max_width370 font16 light medium_gray text-center">
+			Be sure to take a look at our <a href="#" class="link medium_gray underline">Terms of Use</a> and <a href="#" class="link medium_gray underline">Privacy Policy</a>
+		</div>
+-->
+	</div>
+</footer>
+<!-- forms alerts -->
+<div class="alert alert-success alert-dismissible alert-form-success" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	Thanks for your message!
+</div>
+<div class="alert alert-warning alert-dismissible alert-form-check-fields" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	Please, fill in required fields.
+</div>
+<div class="alert alert-danger alert-dismissible alert-form-error" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	An error occurred while sending data :(
+</div>
+<!-- popup with video -->
+<div class="overlay"></div>
+
+<div class="video_popup">
+	<a class="close">
+		<img srcset="i/close_white.png 1x, i/close_white_2x.png 2x" src="i/close_white.png" alt="" />
+	</a>
+	<div class="flex align_center justify_center width_full height_full iframe_container"></div>
+</div>
+
+<script src="js/slick.min.js"></script>
+<script src="js/aos.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
