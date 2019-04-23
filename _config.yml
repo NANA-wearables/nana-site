@@ -1,0 +1,23 @@
+# Site
+title: NANA
+subtitle: um kit para wearables
+
+# URL
+url: http://
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4442
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
