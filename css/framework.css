@@ -9354,6 +9354,15 @@
     .pink.link:hover, .pink.link:focus {
       color: #e41867; }
 
+.orange {
+  color: #e85127; }
+  .pink.link {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; }
+    .pink.link:hover, .pink.link:focus {
+      color: #e41867; }
+
 .dark_blue {
   color: #2c3e50; }
   .dark_blue.link {
