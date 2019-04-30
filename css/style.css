@@ -2630,6 +2630,20 @@ b, strong {
   border-top-right-radius: 8px;
 }
 
+.top_text {
+  font-weight: bolder;
+  line-height: 50px;
+  position: absolute;
+  top: 50.7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text_over_image {
+    position: relative; 
+    text-align: center
+}
+
 /* Showcase 4 */
 .showcase_4 .block a {
   cursor: pointer;
