@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>{{page.titulo}}</title>
+        
+        <link rel="icon" href="i/favicon.png" type="image/x-icon">
+        
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/nana.css" id="theme">
+        <link rel="stylesheet" href="css/framework.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+        
+<!--        <link href="css/style.css" rel="stylesheet" />-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>   
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="#000000">
+					<section>
+                        <img src="i/Nana_Logo_white.png" class="width100">
+                        <p class="font_first uppercase font32 white">
+                            Tutorial
+                        </p>
+                        <p class="font_second uppercase font62 white">
+                            Máscara<br>com Motor
+                        </p>
+				    </section>
+                    
+                    <section data-background="i/F-Mascara/F.Mascara_baixa.gif">
+                    </section>
+                    
+                    <section>
+                        <p class="font_first uppercase font62 white">{{page.titulo}}</p>
+                        <p class="font_second font28 white top55">
+                            Uma máscara com um adereço que gira quando um botão é pressionado.
+                        </p>
+                        <p class="font_second font28 white">
+                            Ideal para introduzir a aplicação de um atuador de movimento. 
+                        </p>
+<!--
+                        <p class="font_first font22 white top35">
+                            Adaptada do projeto de Irene Posch.
+                        </p>
+-->
+				    </section>
+                    
+                    <section data-background="#ffaf96">
+                        <div>
+                            <div class="row bg_brown top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Módulos</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-3 font_second top20 bottom20">
+                              <img src="i/modulos/Módulo_Bateria_baixa_preto.png" class="">
+                              <p class="font_second font18 black uppercase">1 x módulo bateria</p>
+                            </div>
+                            <div class="col-xs-3 font_second top20 bottom20">
+                              <img src="i/modulos/Módulo_conector G enrolado_baixa_preto.png" class="">
+                              <p class="font_second font18 black uppercase">1 x módulo conector</p>
+                            </div>
+                            <div class="col-xs-3 font_second top20 bottom20">
+                              <img src="i/modulos/Módulo_botão_Inteiro_baixa_preto.png" class="">
+                              <p class="font_second font18 black uppercase">1 x módulo botão</p>
+                            </div>
+                            <div class="col-xs-3 font_second top20 bottom20">
+                              <img src="i/modulos/Módulo_LED_baixa_preto.png" class="">
+                              <p class="font_second font18 black uppercase">1 x módulo Motor</p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                            <div class="row bg_dark_gray top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Montagem</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-4 font_second top20 bottom20">
+                              <img src="i/F-Mascara/MASCARA_preparação dos módulos_baixa_preto.png" class="height400">
+                            </div>
+                            <div class="col-xs-8 font_second top20 bottom20">
+                              <p class="font_second font32 black text_left uppercase left45 right15">1. PREPARAÇÃO DOS MÓDULOS</p>
+                                <p class="font_light font28 black text_left left45 right45 top45 bottom20">Monte um circuito com todos os módulos indicados, utilizando o módulo botão na posição central.</p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                            <div class="row bg_dark_gray top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Montagem</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-4 font_second top20 bottom20">
+                              <img src="i/F-Mascara/MASCARA_conexão dos módulos_baixa_preto.png" class="height400">
+                            </div>
+                            <div class="col-xs-8 font_second top20 bottom20">
+                              <p class="font_second font32 black text_left uppercase left45 right15">2. CONEXÃO DOS MÓDULOS</p>
+                                <p class="font_light font28 black text_left left45 right45 top45 bottom20">Em uma das extremidades do módulo botão, conecte o módulo motor que gira, utilizando um módulo conector.. Na outra extremidade conecte o módulo bateria, utilizando um módulo conector. Feche o circuito ligando o módulo conector aos módulos bateria e motor que gira.</p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                            <div class="row bg_dark_gray top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Montagem</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-4 font_second top20 bottom20">
+                              <img src="i/F-Mascara/MASCARA_acionando o circuito_baixa_preto.png" class="height400">
+                            </div>
+                            <div class="col-xs-8 font_second top20 bottom20">
+                              <p class="font_second font32 black text_left uppercase left45 right15">3. ACIONANDO O MOTOR</p>
+                                <p class="font_light font28 black text_left left45 right45 top45 bottom20">Para acionar o motor, pressione o módulo  botão. O contato fechará o circuito e fará o motor girar.</p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#ffffff">
+                        <div>
+                            <div class="row bg_brown top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Materiais para aplicação</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg" >
+                              <p class="font_second font14 black uppercase top45">Máscara de Carnaval</p>
+                            </div>
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg">
+                              <p class="font_second font14 black uppercase top45">Pompom</p>
+                            </div>
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg">
+                              <p class="font_second font14 black uppercase top45">Cola adesiva instantânea</p>
+                            </div>
+                          </div>
+					</section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                            <div class="row bg_dark_gray top0 bottom30">
+                            <div class="col-xs-10 font_second">
+                              <p class="font_second font18 uppercase text_left white top10 left25">{{page.titulo}}</p>
+                              <p class="font_second font32 uppercase text_left white left25">Sugestão de Aplicação</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg" >
+                              <p class="font_light font14 black uppercase top15">Com o circuito pronto, é possível adaptar formas de aplicação na máscara. Sugerimos utilizar tiras de velcro adesivadas, as quais aplicamos na fixação do módulo botão (parte frontal) e do módulo bateria (parte traseira).</p>
+                            </div>
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg">
+                              <p class="font_light font14 black uppercase top15">Graças a flexibilidade do material, é possível escolher quais módulos ficarão visíveis, através de dobras. Optamos por utilizar o módulo botão e o módulo motor que gira na parte frontal da máscara, deixando o restante dos módulos na parte traseira.</p>
+                            </div>
+                            <div class="col-xs-4 top20 bottom20">
+                              <img src="i/01.jpg">
+                              <p class="font_light font14 black uppercase top15">Utilizando cola adesiva instantânea é possível aplicar qualquer material decorativo na ponta do motor, como o pompom.</p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#000000">
+                        <img src="i/Nana_Logo_white.png" class="width100">
+                        <p class="uppercase font_second top50 bottom50">Obrigada!</p>
+                        <p class="font_first font28"><a href="?print-pdf">www.nana-kit.com</a></p>
+				    </section>
+                    
+                    <section data-background="#000000">
+                        <p>Exportar para <a href="?print-pdf">PDF</a></p>
+                    </section>
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
