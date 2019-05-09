@@ -156,13 +156,13 @@ b, strong {
 
 /* Header 3 */
 .header_3 {
-  background: #ffaf96 url(../i/nana-gifs-site_header.gif) no-repeat no-repeat 50% 50%;
+  background: #ffaf96 url(../i/Bordado_FullHD.gif) no-repeat no-repeat 50% 50%;
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
   .header_3 .video .poster {
-    background-image: url(../i/demo_images/header_3_video_poster_x2.jpg);
+    background-image: url(../i/Bordado_FullHD.gif);
   }
 }
 
